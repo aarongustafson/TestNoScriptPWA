@@ -1,8 +1,8 @@
 {
   "dir": "ltr",
   "lang": "en-US",
-  "name": "Lazy WinRT",
-  "short_name": "Lazy",
+  "name": "Test Noscript",
+  "short_name": "Noscript",
   "scope": "/",
   "display": "browser",
   "start_url": "https://89a8937b43564dd89a8da59786027b08.production.codepen.codes/",
