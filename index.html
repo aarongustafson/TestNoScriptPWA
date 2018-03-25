@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Testing PWA + Lazy Loading WinRT Capabilities</title>
+  <link rel="manifest" href="manifest.json">
+  <!--  Styles  -->
+  <link rel="stylesheet" href="/c/default.css">
+  <noscript>
+    <meta http-equiv="refresh" content="1; https://bing.com">
+  </noscript>
+</head>
+<body>
+  <h1>Testing use of <code>noscript</code> to redirect</h1>
+  <p>This should never redirect inside the PWA wrapper.</p>
+  <!--
+
+    Wow! What do you want to build?
+
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+   
+  -->
+  
+  <!-- Scripts -->
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+</html>
