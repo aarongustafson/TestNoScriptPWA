@@ -5,7 +5,7 @@
   "short_name": "Noscript",
   "scope": "/",
   "display": "browser",
-  "start_url": "https://89a8937b43564dd89a8da59786027b08.production.codepen.codes/",
+  "start_url": "https://testnoscriptpwa.azurewebsites.net/",
   "theme_color": "transparent",
   "description": "Just a test",
   "orientation": "any",
